@@ -12,9 +12,9 @@ package com.vaadin.demo.valosample;
 public class CodeSamples {
 
     public static final String VALOSAMPLE = "// Use white background color for embedding\n"
-            + "$v-app-background-color: #fff;\n"
+            + "$v-app-background-color: hsl(210, 0%, 100%);\n"
             + "\n"
-            + "@import \"../valo/valo.scss\";\n"
+            + "@import \"../valo/valo\";\n"
             + "\n"
             + ".valosample {\n"
             + "    // Include Valo styles in your theme\n"
@@ -28,7 +28,7 @@ public class CodeSamples {
             + "\n"
             + "// Background, border color and gradients\n"
             + "$v-background-color: #981aa0;\n"
-            + "$v-border: 2px solid rgba(#fff,0.2);\n"
+            + "$v-border: 1px solid rgba(#fff,0.2);\n"
             + "$v-border-radius: 0;\n"
             + "$v-bevel: false;\n"
             + "$v-shadow: false;\n"
@@ -47,7 +47,7 @@ public class CodeSamples {
             + "      @include linear-gradient(to right, #981aa0 0%, #a700ae 100%);\n"
             + "      color: #fff;\n"
             + "  }\n"
-            + "}";
+            + "}\n";
 
     public static final String FACEBOOK = "// Font style\n"
             + "$v-font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;\n"
@@ -69,13 +69,11 @@ public class CodeSamples {
             + "$v-focus-style: 0 0 1px 1px rgba($v-focus-color, .5);\n"
             + "$v-shadow: 0 1px 0 (v-shade 0.2);\n"
             + "\n"
-            + "@import \"../valo/valo.scss\";\n"
+            + "@import \"../valo/valo\";\n"
             + "\n"
             + ".facebook {\n"
             + "  @include valo;  \n"
-            + "}\n"
-            + "\n"
-            + "";
+            + "}";
 
     public static final String IOS = "// Font style\n"
             + "$v-font-family: \"Source Sans Pro\", sans-serif;\n"
@@ -87,7 +85,6 @@ public class CodeSamples {
             + "\n"
             + ".ios {\n"
             + "\n"
-            + "    // Include valo theme styles in your theme\n"
             + "    @include valo;\n"
             + "\n"
             + "    .v-button {\n"
@@ -99,6 +96,9 @@ public class CodeSamples {
             + "        margin-bottom: 1.5em;\n"
             + "        @include linear-gradient(to bottom, #0b5596 0%, #27e3cb 100%);\n"
             + "\n"
+            + "        .v-button-wrap {\n"
+            + "            display: inline-block;\n"
+            + "        }\n"
             + "        .v-icon {\n"
             + "            font-size: 3.7em;\n"
             + "            color: #fff;\n"
@@ -107,7 +107,7 @@ public class CodeSamples {
             + "        .v-button-caption {\n"
             + "            color: #555;\n"
             + "            display: block;\n"
-            + "            margin: -1.4em 0 0 0;\n"
+            + "            margin: 0;\n"
             + "            font-weight: 100;\n"
             + "        }\n"
             + "    }\n"

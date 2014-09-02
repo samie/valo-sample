@@ -1,7 +1,7 @@
 
 
 // Use white background color for embedding
-$v-app-background-color: #fff;
+$v-app-background-color: hsl(210, 0%, 100%);
 
 // Font style
 $v-font-family: "Source Sans Pro", sans-serif;
@@ -13,7 +13,6 @@ $v-focus-style: 0 0 1px 1px #aae;
 
 .ios {
 
-    // Include valo theme styles in your theme
     @include valo;
 
     .v-button {
@@ -25,6 +24,9 @@ $v-focus-style: 0 0 1px 1px #aae;
         margin-bottom: 1.5em;
         @include linear-gradient(to bottom, #0b5596 0%, #27e3cb 100%);
 
+        .v-button-wrap {
+            display: inline-block;
+        }
         .v-icon {
             font-size: 3.7em;
             color: #fff;
@@ -33,7 +35,7 @@ $v-focus-style: 0 0 1px 1px #aae;
         .v-button-caption {
             color: #555;
             display: block;
-            margin: -1.4em 0 0 0;
+            margin: 0;
             font-weight: 100;
         }
     }

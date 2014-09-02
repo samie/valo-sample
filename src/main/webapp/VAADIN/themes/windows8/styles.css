@@ -520,10 +520,10 @@
 
 .v-ie8 .v-shadow .top-left, .v-ie8 .v-shadow-window .top-left {
 	position: absolute;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 	background: black;
 	filter: alpha(opacity=13) progid:DXImageTransform.Microsoft.blur(pixelradius=0, makeShadow=false);
 }
@@ -1273,14 +1273,14 @@ div.v-layout.v-horizontal.v-widget {
 .windows8.v-app, .windows8.v-app-loading {
 	font: 300 16px/1.55 "Source Sans Pro", sans-serif;
 	color: #474747;
-	background-color: #fff;
+	background-color: white;
 	cursor: default;
 }
 
 .windows8 .v-app-loading {
 	width: 100%;
 	height: 100%;
-	background: #fff;
+	background: white;
 }
 
 .windows8 .v-app-loading:before {
@@ -1307,7 +1307,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 50%;
 	opacity: 1;
 	height: 4px;
-	background-color: #e61a1a;
+	background-color: #1a80e6;
 	pointer-events: none;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -1421,7 +1421,7 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 5px;
 	margin: 0;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
 	background-image: -webkit-linear-gradient(top, #a01ca7 2%, #891691 98%);
 	background-image: linear-gradient(to bottom,#a01ca7 2%, #891691 98%);
@@ -1442,7 +1442,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 a {
 	cursor: pointer;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -1451,7 +1451,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 a:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .windows8 .v-disabled {
@@ -1459,7 +1459,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-drag-element {
-	background: #fff;
+	background: white;
 	color: #474747;
 	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -1521,8 +1521,8 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	background-color: #8b1893;
 	color: #e3bae5;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -1563,7 +1563,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #aa0909;
+	background: #0959aa;
 	opacity: 0.15;
 	filter: alpha(opacity=15.0) ;
 	pointer-events: none;
@@ -1577,10 +1577,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-contextmenu .gwt-MenuItem-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
-	color: #f8eded;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -1629,7 +1629,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-verticallayout-well  > div > [class*="-caption"], .windows8 .v-horizontallayout-well  > div > [class*="-caption"] {
@@ -1658,7 +1658,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: white;
 	color: #474747;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	
 	
 }
@@ -1706,7 +1706,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -1770,10 +1770,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-button:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-button:hover:after {
@@ -1793,17 +1793,17 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-button-primary {
 	height: 37px;
 	padding: 0 15px;
-	color: #f8eded;
+	color: #edf2f8;
 	font-weight: 400;
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	
 	
 	padding: 0 19px;
@@ -1813,14 +1813,14 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-button-primary:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-button-primary:hover:after {
-	background-color: rgba(237, 94, 94, 0.1);
+	background-color: rgba(94, 166, 237, 0.1);
 }
 
 .windows8 .v-button-primary:focus:after {
@@ -1830,7 +1830,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-button-primary:active:after {
-	background-color: rgba(125, 3, 3, 0.2);
+	background-color: rgba(3, 64, 125, 0.2);
 }
 
 .v-ie8 .windows8 .v-button-primary {
@@ -1845,7 +1845,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #2c9720;
@@ -1857,10 +1857,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-button-friendly:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-button-friendly:hover:after {
@@ -1868,7 +1868,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-button-friendly:focus:after {
-	border-color: #e61a1a;
+	border: inherit;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 }
@@ -1885,7 +1885,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #ed473b;
@@ -1897,10 +1897,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-button-danger:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-button-danger:hover:after {
@@ -1943,11 +1943,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	background: transparent;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-button-borderless-colored:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .windows8 .v-button-borderless-colored:hover:after {
@@ -1986,7 +1986,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: transparent;
 	color: inherit;
 	cursor: pointer;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -2008,7 +2008,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-button-link:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .windows8 .v-button-tiny {
@@ -2023,10 +2023,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-button-tiny:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-button-small {
@@ -2041,10 +2041,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-button-small:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-button-large {
@@ -2059,10 +2059,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-button-large:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-button-huge {
@@ -2077,10 +2077,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-button-huge:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-button-icon-align-right [class*="wrap"] {
@@ -2171,7 +2171,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-checkbox > input:focus ~ label:before {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
@@ -2202,7 +2202,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -2216,10 +2216,10 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .windows8 .v-checkbox > input ~ label:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 :root .windows8 .v-checkbox > input ~ label:before:hover:after {
@@ -2250,7 +2250,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-checkbox > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .windows8 .v-checkbox > input[disabled]  ~ label, :root .windows8 .v-checkbox > input[disabled]  ~ label .v-icon, :root .windows8 .v-checkbox > input[disabled]  ~ .v-icon {
@@ -2304,7 +2304,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-checkbox-small > input:focus ~ label:before {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
@@ -2335,7 +2335,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -2349,10 +2349,10 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .windows8 .v-checkbox-small > input ~ label:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 :root .windows8 .v-checkbox-small > input ~ label:before:hover:after {
@@ -2383,7 +2383,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-checkbox-small > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .windows8 .v-checkbox-small > input[disabled]  ~ label, :root .windows8 .v-checkbox-small > input[disabled]  ~ label .v-icon, :root .windows8 .v-checkbox-small > input[disabled]  ~ .v-icon {
@@ -2437,7 +2437,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-checkbox-large > input:focus ~ label:before {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
@@ -2468,7 +2468,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -2482,10 +2482,10 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .windows8 .v-checkbox-large > input ~ label:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 :root .windows8 .v-checkbox-large > input ~ label:before:hover:after {
@@ -2516,7 +2516,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-checkbox-large > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .windows8 .v-checkbox-large > input[disabled]  ~ label, :root .windows8 .v-checkbox-large > input[disabled]  ~ label .v-icon, :root .windows8 .v-checkbox-large > input[disabled]  ~ .v-icon {
@@ -2567,7 +2567,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 37px;
 	border-radius: 0;
 	padding: 4px 7px;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background: white;
 	color: #474747;
 	-webkit-box-shadow: inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -2632,12 +2632,12 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	top: 2px;
-	right: 2px;
-	bottom: 2px;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
 	width: 37px;
 	cursor: pointer;
-	border-left: 2px solid rgba(255, 255, 255, 0.2);
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
 	color: #a3a3a3;
 }
 
@@ -2740,8 +2740,8 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	background-color: #8b1893;
 	color: #e3bae5;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -2780,7 +2780,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #aa0909;
+	background: #0959aa;
 	opacity: 0.15;
 	filter: alpha(opacity=15.0) ;
 	pointer-events: none;
@@ -2794,10 +2794,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-filterselect-suggestpopup .gwt-MenuItem-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
-	color: #f8eded;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -2927,7 +2927,7 @@ div.v-layout.v-horizontal.v-widget {
 	cursor: inherit;
 	
 	
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	text-shadow: inherit;
@@ -3060,9 +3060,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	top: 2px;
-	right: 2px;
-	bottom: 2px;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
 	width: 28px;
 	cursor: pointer;
 }
@@ -3190,9 +3190,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	top: 2px;
-	right: 2px;
-	bottom: 2px;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
 	width: 31px;
 	cursor: pointer;
 }
@@ -3325,9 +3325,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	top: 2px;
-	right: 2px;
-	bottom: 2px;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
 	width: 44px;
 	cursor: pointer;
 }
@@ -3456,9 +3456,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	top: 2px;
-	right: 2px;
-	bottom: 2px;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
 	width: 59px;
 	cursor: pointer;
 }
@@ -3528,7 +3528,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-csslayout-well  > div > [class*="-caption"] {
@@ -3557,7 +3557,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: white;
 	color: #474747;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	
 	
 }
@@ -3585,7 +3585,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-csslayout-v-component-group .v-widget {
 	vertical-align: middle;
-	margin-left: -2px;
+	margin-left: -1px;
 }
 
 .windows8 .v-csslayout-v-component-group .v-widget:first-child {
@@ -3671,7 +3671,7 @@ div.v-layout.v-horizontal.v-widget {
 	left: 0;
 	margin-top: -0.5em;
 	padding-bottom: 0.5em;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-formlayout.light  > table {
@@ -3681,7 +3681,7 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-formlayout.light  > table > tbody > [class*="row"] > td {
 	padding-top: 0;
 	height: 37px;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-formlayout.light  > table > tbody > [class*="lastrow"] > td {
@@ -3906,7 +3906,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 37px;
 	border-radius: 0;
 	padding: 4px 7px;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background: white;
 	color: #474747;
 	-webkit-box-shadow: inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -4133,10 +4133,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-caption-inline-icon span.v-icon {
-	left: 2px;
-	bottom: 2px;
+	left: 1px;
+	bottom: 1px;
 	width: 37px;
-	line-height: 33px;
+	line-height: 35px;
 	text-align: center;
 	font-size: 16px;
 }
@@ -4171,10 +4171,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-caption-inline-icon.v-caption-tiny span.v-icon {
-	left: 2px;
-	bottom: 2px;
+	left: 1px;
+	bottom: 1px;
 	width: 28px;
-	line-height: 24px;
+	line-height: 26px;
 	text-align: center;
 	font-size: 12px;
 }
@@ -4209,10 +4209,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-caption-inline-icon.v-caption-compact span.v-icon {
-	left: 2px;
-	bottom: 2px;
+	left: 1px;
+	bottom: 1px;
 	width: 31px;
-	line-height: 27px;
+	line-height: 29px;
 	text-align: center;
 	font-size: 16px;
 }
@@ -4247,10 +4247,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-caption-inline-icon.v-caption-small span.v-icon {
-	left: 2px;
-	bottom: 2px;
+	left: 1px;
+	bottom: 1px;
 	width: 31px;
-	line-height: 27px;
+	line-height: 29px;
 	text-align: center;
 	font-size: 14px;
 }
@@ -4285,10 +4285,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-caption-inline-icon.v-caption-large span.v-icon {
-	left: 2px;
-	bottom: 2px;
+	left: 1px;
+	bottom: 1px;
 	width: 44px;
-	line-height: 40px;
+	line-height: 42px;
 	text-align: center;
 	font-size: 20px;
 }
@@ -4323,10 +4323,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-caption-inline-icon.v-caption-huge span.v-icon {
-	left: 2px;
-	bottom: 2px;
+	left: 1px;
+	bottom: 1px;
 	width: 59px;
-	line-height: 55px;
+	line-height: 57px;
 	text-align: center;
 	font-size: 26px;
 }
@@ -4366,7 +4366,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 37px;
 	border-radius: 0;
 	padding: 6px;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background: white;
 	color: #474747;
 	-webkit-box-shadow: inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -4654,7 +4654,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 37px;
 	border-radius: 0;
 	padding: 4px 7px;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background: white;
 	color: #474747;
 	-webkit-box-shadow: inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -4708,17 +4708,17 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 0;
 	position: absolute;
 	z-index: 10;
-	top: 2px;
-	bottom: 2px;
-	left: 2px;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
 	width: 37px;
-	line-height: 33px;
+	line-height: 35px;
 	text-align: center;
 	cursor: pointer;
 	font: inherit;
 	outline: none;
 	margin: 0;
-	border-right: 2px solid rgba(255, 255, 255, 0.2);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	color: #a3a3a3;
 }
 
@@ -4812,8 +4812,8 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	background-color: #8b1893;
 	color: #e3bae5;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -4860,7 +4860,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-sizing: border-box;
 	width: 30px;
 	height: 26px;
-	border: 2px solid transparent;
+	border: 1px solid transparent;
 	line-height: 26px;
 	text-align: center;
 	font-size: 14px;
@@ -4876,7 +4876,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-datefield-popup .v-datefield-calendarpanel-day:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-datefield-popup .v-datefield-calendarpanel-day-offmonth {
@@ -4891,10 +4891,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected, .windows8 .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected:hover {
-	color: #eec9c9;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	color: #c9dbee;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	border: none;
 	font-weight: 600;
 }
@@ -4906,7 +4906,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .windows8 .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-focused {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 }
 
 .windows8 .v-datefield-popup .v-datefield-calendarpanel-weekdays {
@@ -4958,7 +4958,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-datefield-popup td[class$="year"] button:hover:before, .windows8 .v-datefield-popup td[class$="month"] button:hover:before {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-datefield-popup .v-button-prevyear:before {
@@ -4983,7 +4983,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-datefield-popup td.v-datefield-calendarpanel-month {
 	width: 148px;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-datefield-popup .v-datefield-calendarpanel-year td.v-datefield-calendarpanel-month {
@@ -5009,11 +5009,11 @@ div.v-layout.v-horizontal.v-widget {
 	bottom: 0;
 	left: 0;
 	width: 34px;
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
-	border-right: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 0;
-	background: #fff;
+	background: white;
 }
 
 .windows8 .v-datefield-popup td.v-datefield-calendarpanel-time {
@@ -5042,7 +5042,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-sizing: border-box;
 	width: 30px;
 	height: 26px;
-	border: 2px solid transparent;
+	border: 1px solid transparent;
 	line-height: 26px;
 	text-align: center;
 	font-size: 14px;
@@ -5058,7 +5058,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-datefield-calendarpanel-day:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-datefield-calendarpanel-day-offmonth {
@@ -5073,10 +5073,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected, .windows8 .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected:hover {
-	color: #eec9c9;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	color: #c9dbee;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	border: none;
 	font-weight: 600;
 }
@@ -5088,7 +5088,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .windows8 .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-focused {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 }
 
 .windows8 .v-datefield-calendarpanel-weekdays {
@@ -5140,7 +5140,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 td[class$="year"] button:hover:before, .windows8 td[class$="month"] button:hover:before {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-button-prevyear:before {
@@ -5165,7 +5165,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 td.v-datefield-calendarpanel-month {
 	width: 148px;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-datefield-calendarpanel-year td.v-datefield-calendarpanel-month {
@@ -5191,11 +5191,11 @@ div.v-layout.v-horizontal.v-widget {
 	bottom: 0;
 	left: 0;
 	width: 34px;
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
-	border-right: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 0;
-	background: #fff;
+	background: white;
 }
 
 .windows8 td.v-datefield-calendarpanel-time {
@@ -5738,7 +5738,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-sizing: border-box;
 	width: 30px;
 	height: 26px;
-	border: 2px solid transparent;
+	border: 1px solid transparent;
 	line-height: 26px;
 	text-align: center;
 	font-size: 14px;
@@ -5754,7 +5754,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-inline-datefield-calendarpanel-day:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-inline-datefield-calendarpanel-day-offmonth {
@@ -5769,10 +5769,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-selected, .windows8 .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-selected:hover {
-	color: #eec9c9;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	color: #c9dbee;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	border: none;
 	font-weight: 600;
 }
@@ -5784,7 +5784,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .windows8 .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-focused {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 }
 
 .windows8 .v-inline-datefield-calendarpanel-weekdays {
@@ -5836,7 +5836,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 td[class$="year"] button:hover:before, .windows8 td[class$="month"] button:hover:before {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-button-prevyear:before {
@@ -5861,7 +5861,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 td.v-inline-datefield-calendarpanel-month {
 	width: 148px;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-inline-datefield-calendarpanel-year td.v-inline-datefield-calendarpanel-month {
@@ -5887,11 +5887,11 @@ div.v-layout.v-horizontal.v-widget {
 	bottom: 0;
 	left: 0;
 	width: 34px;
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
-	border-right: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 0;
-	background: #fff;
+	background: white;
 }
 
 .windows8 td.v-inline-datefield-calendarpanel-time {
@@ -5947,7 +5947,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	cursor: default;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -5957,7 +5957,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	padding: 0;
 	text-align: left;
-	line-height: 33px;
+	line-height: 35px;
 }
 
 .windows8 .v-menubar:after {
@@ -5990,10 +5990,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-menubar:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-menubar:focus:after {
@@ -6028,7 +6028,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	cursor: pointer;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -6039,7 +6039,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: transparent;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border-width: 0 2px 0 0;
+	border-width: 0 1px 0 0;
 	border-color: inherit;
 	height: 100%;
 	line-height: inherit;
@@ -6115,17 +6115,17 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-menubar > .v-menubar-menuitem-selected {
-	color: #f8eded;
+	color: #edf2f8;
 	
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	
 	
 	border-top-width: 0;
@@ -6160,8 +6160,8 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	background-color: #8b1893;
 	color: #e3bae5;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -6206,7 +6206,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #aa0909;
+	background: #0959aa;
 	opacity: 0.15;
 	filter: alpha(opacity=15.0) ;
 	pointer-events: none;
@@ -6232,10 +6232,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-menubar-popup .v-menubar-menuitem-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
-	color: #f8eded;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -6244,7 +6244,7 @@ div.v-layout.v-horizontal.v-widget {
 	margin: 4px 0;
 	height: 0;
 	overflow: hidden;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-menubar-popup [class*="checked"] .v-menubar-menuitem-caption:before {
@@ -6278,16 +6278,16 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	padding: 0;
 	text-align: left;
-	line-height: 27px;
+	line-height: 29px;
 	font-size: 14px;
 }
 
 .windows8 .v-menubar-small:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-menubar-small  > .v-menubar-menuitem {
@@ -6301,7 +6301,7 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-menubar-borderless {
 	border: none;
 	border-radius: 0;
-	padding: 2px;
+	padding: 1px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	text-shadow: none;
@@ -6317,9 +6317,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	border: none;
-	margin-right: 2px;
+	margin-right: 1px;
 	border-radius: 0;
-	color: #e61a1a;
+	color: #1a80e6;
 	padding: 0 12px;
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -6335,7 +6335,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-menubar-borderless .v-menubar-menuitem:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .windows8 .v-menubar-borderless .v-menubar-menuitem:active {
@@ -6343,22 +6343,22 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-menubar-borderless .v-menubar-menuitem-checked, .windows8 .v-menubar-borderless .v-menubar-menuitem-checked:first-child {
-	border: 2px solid rgba(255, 255, 255, 0.2);
-	color: #e61a1a;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	color: #1a80e6;
 }
 
 .windows8 .v-menubar-borderless .v-menubar-menuitem-checked .v-menubar-menuitem-caption, .windows8 .v-menubar-borderless .v-menubar-menuitem-checked:first-child .v-menubar-menuitem-caption {
 	position: relative;
-	top: -2px;
+	top: -1px;
 }
 
 .windows8 .v-menubar-borderless .v-menubar-menuitem-selected {
-	color: #f8eded;
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .windows8 .v-menubar-borderless .v-menubar-menuitem-selected:hover {
-	color: #f8eded;
+	color: #edf2f8;
 }
 
 .windows8 .v-menubar-borderless .v-menubar-menuitem-disabled, .windows8 .v-menubar-borderless .v-menubar-menuitem-disabled:hover {
@@ -6396,7 +6396,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-radiobutton > input:focus ~ label:before {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
@@ -6427,7 +6427,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -6441,10 +6441,10 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .windows8 .v-radiobutton > input ~ label:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 :root .windows8 .v-radiobutton > input ~ label:before:hover:after {
@@ -6475,7 +6475,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-radiobutton > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .windows8 .v-radiobutton > input[disabled]  ~ label, :root .windows8 .v-radiobutton > input[disabled]  ~ label .v-icon, :root .windows8 .v-radiobutton > input[disabled]  ~ .v-icon {
@@ -6502,7 +6502,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 7px;
 	top: 6px;
 	left: 6px;
-	background: #e61a1a;
+	background: #1a80e6;
 }
 
 :root .windows8 .v-radiobutton > input ~ label:before, :root .windows8 .v-radiobutton > input ~ label:after {
@@ -6562,7 +6562,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-select-optiongroup-small .v-checkbox > input:focus ~ label:before {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
@@ -6593,7 +6593,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -6607,10 +6607,10 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .windows8 .v-select-optiongroup-small .v-checkbox > input ~ label:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 :root .windows8 .v-select-optiongroup-small .v-checkbox > input ~ label:before:hover:after {
@@ -6641,7 +6641,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-select-optiongroup-small .v-checkbox > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .windows8 .v-select-optiongroup-small .v-checkbox > input[disabled]  ~ label, :root .windows8 .v-select-optiongroup-small .v-checkbox > input[disabled]  ~ label .v-icon, :root .windows8 .v-select-optiongroup-small .v-checkbox > input[disabled]  ~ .v-icon {
@@ -6694,7 +6694,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-select-optiongroup-small .v-radiobutton > input:focus ~ label:before {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
@@ -6725,7 +6725,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -6739,10 +6739,10 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .windows8 .v-select-optiongroup-small .v-radiobutton > input ~ label:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 :root .windows8 .v-select-optiongroup-small .v-radiobutton > input ~ label:before:hover:after {
@@ -6773,7 +6773,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-select-optiongroup-small .v-radiobutton > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .windows8 .v-select-optiongroup-small .v-radiobutton > input[disabled]  ~ label, :root .windows8 .v-select-optiongroup-small .v-radiobutton > input[disabled]  ~ label .v-icon, :root .windows8 .v-select-optiongroup-small .v-radiobutton > input[disabled]  ~ .v-icon {
@@ -6800,7 +6800,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 6px;
 	top: 5px;
 	left: 5px;
-	background: #e61a1a;
+	background: #1a80e6;
 }
 
 :root .windows8 .v-select-optiongroup-small .v-radiobutton > input ~ label:before, :root .windows8 .v-select-optiongroup-small .v-radiobutton > input ~ label:after {
@@ -6860,7 +6860,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-select-optiongroup-large .v-checkbox > input:focus ~ label:before {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
@@ -6891,7 +6891,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -6905,10 +6905,10 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .windows8 .v-select-optiongroup-large .v-checkbox > input ~ label:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 :root .windows8 .v-select-optiongroup-large .v-checkbox > input ~ label:before:hover:after {
@@ -6939,7 +6939,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-select-optiongroup-large .v-checkbox > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .windows8 .v-select-optiongroup-large .v-checkbox > input[disabled]  ~ label, :root .windows8 .v-select-optiongroup-large .v-checkbox > input[disabled]  ~ label .v-icon, :root .windows8 .v-select-optiongroup-large .v-checkbox > input[disabled]  ~ .v-icon {
@@ -6992,7 +6992,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-select-optiongroup-large .v-radiobutton > input:focus ~ label:before {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	-webkit-box-shadow: 0 0 0 1px #aaa;
@@ -7023,7 +7023,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -7037,10 +7037,10 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .windows8 .v-select-optiongroup-large .v-radiobutton > input ~ label:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 :root .windows8 .v-select-optiongroup-large .v-radiobutton > input ~ label:before:hover:after {
@@ -7071,7 +7071,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .windows8 .v-select-optiongroup-large .v-radiobutton > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .windows8 .v-select-optiongroup-large .v-radiobutton > input[disabled]  ~ label, :root .windows8 .v-select-optiongroup-large .v-radiobutton > input[disabled]  ~ label .v-icon, :root .windows8 .v-select-optiongroup-large .v-radiobutton > input[disabled]  ~ .v-icon {
@@ -7098,7 +7098,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 8px;
 	top: 7px;
 	left: 7px;
-	background: #e61a1a;
+	background: #1a80e6;
 }
 
 :root .windows8 .v-select-optiongroup-large .v-radiobutton > input ~ label:before, :root .windows8 .v-select-optiongroup-large .v-radiobutton > input ~ label:after {
@@ -7141,7 +7141,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-link {
 	cursor: pointer;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -7150,7 +7150,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-link:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .windows8 .v-link a {
@@ -7179,14 +7179,14 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	background-color: white;
 	color: #474747;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
-	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 2px rgba(0, 0, 0, 0.12775);
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 2px rgba(0, 0, 0, 0.12775);
+	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.12775);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.12775);
 	padding: 0;
 	min-width: 148px !important;
 	min-height: 37px !important;
@@ -7263,11 +7263,11 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-window-outerheader:after {
 	content: "";
 	position: absolute;
-	bottom: -2px;
+	bottom: -1px;
 	right: 0;
 	left: 0;
 	height: 0;
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -7310,7 +7310,7 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-window-closebox:hover, .windows8 .v-window-maximizebox:hover, .windows8 .v-window-restorebox:hover {
 	opacity: 1;
 	filter: none ;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-window-closebox:active, .windows8 .v-window-maximizebox:active, .windows8 .v-window-restorebox:active {
@@ -7406,7 +7406,7 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 2;
 	top: 0;
 	height: 0;
-	border-top: 2px solid white;
+	border-top: 1px solid white;
 	left: 0;
 	right: 0;
 }
@@ -7468,8 +7468,8 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 7px 12px;
 	position: relative;
 	z-index: 2;
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
 }
 
@@ -7480,7 +7480,7 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-window-top-toolbar.v-menubar-borderless {
 	padding-left: 6px;
 	padding-right: 6px;
-	margin: 4px 0;
+	margin: 5px 0;
 }
 
 .windows8 .v-window-bottom-toolbar.v-layout {
@@ -7488,7 +7488,7 @@ div.v-layout.v-horizontal.v-widget {
 	background-color: #981aa0;
 	background-image: -webkit-linear-gradient(top, #87178e 0, #981aa0 4px);
 	background-image: linear-gradient(to bottom,#87178e 0, #981aa0 4px);
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	border-radius: 0 0 0 0;
 }
 
@@ -7644,30 +7644,30 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-tree-node-focused:after {
 	opacity: 1;
-	border: 1px solid #e61a1a;
+	border: 1px solid #1a80e6;
 }
 
 .v-ie8 .windows8 .v-tree-node-focused {
-	outline: 1px dotted #e61a1a;
+	outline: 1px dotted #1a80e6;
 }
 
 .windows8 .v-tree-node-selected {
-	color: #f8eded;
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .windows8 .v-tree-node-selected:after {
 	opacity: 1;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	border: none;
 }
 
 .v-ie8 .windows8 .v-tree-node-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 }
 
 .windows8 .v-tree-node-children {
@@ -7684,10 +7684,10 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	height: 2px;
 	width: 100%;
-	background: #e61a1a;
+	background: #1a80e6;
 	font-size: 32px;
 	line-height: 2px;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-indent: -4px;
 	text-shadow: 0 0 1px #981aa0, 0 0 1px #981aa0;
 	opacity: 1;
@@ -7699,14 +7699,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-tree-node-caption-drag-center {
-	-webkit-box-shadow: 0 0 0 2px #e61a1a;
-	box-shadow: 0 0 0 2px #e61a1a;
+	-webkit-box-shadow: 0 0 0 2px #1a80e6;
+	box-shadow: 0 0 0 2px #1a80e6;
 	position: relative;
 	border-radius: 0;
 }
 
 .v-ie8 .windows8 .v-tree-node-caption-drag-center {
-	outline: 2px solid #e61a1a;
+	outline: 2px solid #1a80e6;
 }
 
 .v-ff .windows8 .v-tree-node-drag-top:before, .v-ff .windows8 .v-tree-node-drag-bottom:after {
@@ -7724,16 +7724,16 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-header table, .windows8 .v-table-footer table, .windows8 .v-table-table {
-	-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
-	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+	-webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
 }
 
 .v-ie8 .windows8 .v-table-header table, .v-ie8 .windows8 .v-table-footer table, .v-ie8 .windows8 .v-table-table {
-	outline: 2px solid rgba(255, 255, 255, 0.2);
+	outline: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-table-header-wrap, .windows8 .v-table-footer-wrap, .windows8 .v-table-header-drag {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
 	background-image: -webkit-linear-gradient(top, #a01ca7 2%, #891691 98%);
 	background-image: linear-gradient(to bottom,#a01ca7 2%, #891691 98%);
@@ -7752,13 +7752,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-footer td {
-	border-left: 2px solid rgba(255, 255, 255, 0.2);
-	display: inline-block;
-	margin-left: -1px;
-}
-
-.windows8 .v-table-footer td:first-child {
-	margin-left: 0;
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-table-footer-container, .windows8 .v-table-caption-container {
@@ -7770,7 +7764,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-footer-container {
-	padding: 10px 12px 12px;
+	padding: 11px 12px 12px;
 	float: right;
 }
 
@@ -7779,8 +7773,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-caption-container, .windows8 .v-table-header-drag {
-	padding: 12px 12px 10px;
-	border-left: 2px solid rgba(255, 255, 255, 0.2);
+	padding: 12px 12px 11px;
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-table-caption-container-align-right {
@@ -7799,14 +7793,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-cell-content {
-	border-left: 2px solid rgba(255, 255, 255, 0.2);
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
 	overflow: hidden;
 	height: 37px;
 }
 
 .windows8 .v-table-cell-content:first-child {
 	border-left: none;
-	padding-left: 2px;
+	padding-left: 1px;
 }
 
 .windows8 .v-table-header td:first-child .v-table-caption-container, .windows8 .v-table-footer td:first-child {
@@ -7836,7 +7830,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-body {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-user-select: text;
 	-moz-user-select: text;
 	-ms-user-select: text;
@@ -7849,7 +7843,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-table td {
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-table-table tr:first-child td {
@@ -7865,25 +7859,25 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table [class*="-row"].v-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	background-origin: border-box;
-	color: #f8eded;
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .windows8 .v-table [class*="-row"].v-selected  + .v-selected {
-	background: #da1616;
+	background: #1670da;
 }
 
 .windows8 .v-table [class*="-row"].v-selected  + .v-selected td {
-	border-top-color: #da1616;
+	border-top-color: #1670da;
 }
 
 .windows8 .v-table [class*="-row"].v-selected .v-table-cell-content {
 	border-color: transparent;
-	border-left-color: #b81e1e;
+	border-left-color: #1e6bb8;
 }
 
 .windows8 .v-table [class*="-row"].v-selected .v-table-cell-content:first-child {
@@ -7919,8 +7913,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-focus {
-	outline: 2px solid #e61a1a;
-	outline-offset: -2px;
+	outline: 1px solid #1a80e6;
+	outline-offset: -1px;
 }
 
 .windows8 .v-drag-element.v-table-focus, .windows8 .v-drag-element .v-table-focus {
@@ -7937,18 +7931,18 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-focus-slot-right {
-	border-right: 4px solid #e61a1a;
-	right: -3px;
-	margin-left: -12px;
+	border-right: 3px solid #1a80e6;
+	right: -2px;
+	margin-left: -11px;
 }
 
 .windows8 .v-table-focus-slot-left {
 	float: left;
-	border-left: 4px solid #e61a1a;
-	left: -2px;
+	border-left: 3px solid #1a80e6;
+	left: -1px;
 	right: auto;
 	margin-left: 0 !important;
-	margin-right: -12px;
+	margin-right: -11px;
 }
 
 .windows8 .v-table-column-selector {
@@ -7959,7 +7953,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -7987,10 +7981,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-table-column-selector:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-table-column-selector:hover:after {
@@ -8010,10 +8004,10 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-table-column-selector:after {
 	content: "";
 	position: absolute;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 	border-radius: inherit;
 }
 
@@ -8101,12 +8095,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-drag .v-table-body {
-	-webkit-box-shadow: 0 0 0 2px rgba(230, 26, 26, 0.5);
-	box-shadow: 0 0 0 2px rgba(230, 26, 26, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(26, 128, 230, 0.5);
+	box-shadow: 0 0 0 2px rgba(26, 128, 230, 0.5);
 }
 
 .v-ie8 .windows8 .v-table-drag .v-table-body {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 }
 
 .windows8 .v-table-drag .v-table-body .v-table-focus {
@@ -8118,10 +8112,10 @@ div.v-layout.v-horizontal.v-widget {
 	display: block;
 	position: absolute;
 	z-index: 1;
-	height: 39px;
+	height: 38px;
 	left: 0;
 	right: 0;
-	background: #e61a1a;
+	background: #1a80e6;
 	opacity: 0.2;
 	filter: alpha(opacity=20) ;
 }
@@ -8133,16 +8127,16 @@ div.v-layout.v-horizontal.v-widget {
 	height: 2px;
 	left: 0;
 	right: 0;
-	background: #e61a1a;
+	background: #1a80e6;
 	font-size: 32px;
 	line-height: 2px;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-indent: -4px;
 	text-shadow: 0 0 1px #901997, 0 0 1px #901997;
 }
 
 .windows8 .v-table-row-drag-top td:first-child:before {
-	margin-top: -2px;
+	margin-top: -1px;
 }
 
 .v-ff .windows8 .v-table-row-drag-top td:first-child:before, .v-ff .windows8 .v-table-row-drag-bottom td:first-child:after {
@@ -8159,11 +8153,11 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-table-no-vertical-lines .v-table-cell-content {
 	border-left: none;
-	padding-left: 2px;
+	padding-left: 1px;
 }
 
 .windows8 .v-table-no-vertical-lines.v-treetable .v-table-cell-content {
-	padding-left: 14px;
+	padding-left: 13px;
 }
 
 .windows8 .v-table-no-horizontal-lines .v-table-cell-content {
@@ -8180,11 +8174,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-borderless .v-table-header-wrap {
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-table-borderless .v-table-footer-wrap {
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-table-compact .v-table-header-wrap, .windows8 .v-table-compact .v-table-footer-wrap, .windows8 .v-table-compact .v-table-header-drag, .windows8 .v-table-small .v-table-header-wrap, .windows8 .v-table-small .v-table-footer-wrap, .windows8 .v-table-small .v-table-header-drag {
@@ -8192,12 +8186,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-compact .v-table-footer-container, .windows8 .v-table-small .v-table-footer-container {
-	padding: 7px 8px 9px;
+	padding: 8px 7px 9px;
 }
 
 .windows8 .v-table-compact .v-table-caption-container, .windows8 .v-table-compact .v-table-header-drag, .windows8 .v-table-small .v-table-caption-container, .windows8 .v-table-small .v-table-header-drag {
 	padding-top: 9px;
-	padding-bottom: 7px;
+	padding-bottom: 8px;
 	padding-left: 6px;
 	padding-right: 6px;
 }
@@ -8242,7 +8236,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-compact .v-table-row-drag-middle td:first-child:before, .windows8 .v-table-small .v-table-row-drag-middle td:first-child:before {
-	height: 33px;
+	height: 32px;
 }
 
 .windows8 .v-table-compact.v-treetable .v-table-cell-wrapper, .windows8 .v-table-small.v-treetable .v-table-cell-wrapper {
@@ -8257,7 +8251,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-table-compact.v-treetable .v-table-cell-content:first-child, .windows8 .v-table-small.v-treetable .v-table-cell-content:first-child {
-	padding-left: 8px;
+	padding-left: 7px;
 }
 
 .windows8 .v-table-compact.v-treetable .v-table-footer-container, .windows8 .v-table-small.v-treetable .v-table-footer-container {
@@ -8303,7 +8297,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-treetable [class*="cell-content"]:first-child {
-	padding-left: 14px;
+	padding-left: 13px;
 }
 
 .windows8 .v-treetable-treespacer {
@@ -8326,12 +8320,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter {
-	width: 2px;
+	width: 1px;
 }
 
 .windows8 .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter:after {
-	left: -5px;
-	right: -5px;
+	left: -6px;
+	right: -6px;
 }
 
 .windows8 .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before {
@@ -8342,7 +8336,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -8360,10 +8354,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:hover:after {
@@ -8381,16 +8375,16 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-splitpanel-horizontal  > div > .v-splitpanel-second-container {
-	margin-left: 2px;
+	margin-left: 1px;
 }
 
 .windows8 .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter {
-	height: 2px;
+	height: 1px;
 }
 
 .windows8 .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter:after {
-	top: -5px;
-	bottom: -5px;
+	top: -6px;
+	bottom: -6px;
 }
 
 .windows8 .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before {
@@ -8401,7 +8395,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -8416,10 +8410,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before:hover:after {
@@ -8453,7 +8447,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -8471,10 +8465,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:hover:after {
@@ -8493,7 +8487,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:after {
 	content: "";
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-left-color: rgba(255, 255, 255, 0.2);
 	position: absolute;
@@ -8501,7 +8495,7 @@ div.v-layout.v-horizontal.v-widget {
 	left: 50%;
 	width: 0;
 	height: 37px;
-	margin-left: -2px;
+	margin-left: -1px;
 	margin-top: -19px;
 }
 
@@ -8526,7 +8520,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -8541,10 +8535,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before:hover:after {
@@ -8563,7 +8557,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:after {
 	content: "";
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-left-color: rgba(255, 255, 255, 0.2);
 	position: absolute;
@@ -8572,7 +8566,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 37px;
 	height: 0;
 	margin-left: -19px;
-	margin-top: -2px;
+	margin-top: -1px;
 }
 
 .windows8 .v-progressbar-wrapper {
@@ -8590,12 +8584,12 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-progressbar-indicator {
 	border-radius: 0;
 	height: inherit;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	
 	
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -8620,12 +8614,12 @@ div.v-layout.v-horizontal.v-widget {
 	display: inline-block;
 	border-radius: 0;
 	height: inherit;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	
 	
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -8640,9 +8634,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(230, 26, 26, 0.2);
-	border-top-color: #e61a1a;
-	border-right-color: #e61a1a;
+	border: 2px solid rgba(26, 128, 230, 0.2);
+	border-top-color: #1a80e6;
+	border-right-color: #1a80e6;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -8712,18 +8706,18 @@ div.v-layout.v-horizontal.v-widget {
 	left: 11px;
 	width: 0;
 	border-radius: 0;
-	border-left: 2px solid rgba(255, 255, 255, 0.2);
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-slider-base:after {
 	border-radius: 0;
 	height: inherit;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	
 	
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -8759,7 +8753,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
@@ -8771,10 +8765,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-slider-handle:before:after {
 	border: inherit;
-	top: -2px;
-	right: -2px;
-	bottom: -2px;
-	left: -2px;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
 }
 
 .windows8 .v-slider-handle:before:hover:after {
@@ -8792,8 +8786,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-slider-handle:after {
-	border: 2px solid rgba(255, 255, 255, 0.2);
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	-webkit-box-shadow: 0 0 0 1px #aaa;
 	box-shadow: 0 0 0 1px #aaa;
 	opacity: 0;
@@ -8857,15 +8851,15 @@ div.v-layout.v-horizontal.v-widget {
 	width: auto;
 	height: 0;
 	border-left: none;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-slider-vertical .v-slider-base:after {
 	height: 101%;
 	margin-left: 0;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(left, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to right,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(left, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to right,#1c8ae8 2%, #1670da 98%);
 }
 
 .v-ie8 .windows8 .v-slider-vertical .v-slider-base:after {
@@ -8911,7 +8905,7 @@ div.v-layout.v-horizontal.v-widget {
 	content: "";
 	position: absolute;
 	height: 0;
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -8945,7 +8939,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: auto !important;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	border-bottom: 4px solid transparent;
+	border-bottom: 2px solid transparent;
 	-webkit-transition: border-bottom 200ms, color 200ms;
 	-moz-transition: border-bottom 200ms, color 200ms;
 	transition: border-bottom 200ms, color 200ms;
@@ -8960,7 +8954,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-tabsheet-tabitemcell .v-caption:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-tabsheet-tabitemcell .v-caption.v-disabled {
@@ -8980,12 +8974,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-tabsheet-tabitemcell:focus .v-caption {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-tabsheet-tabitemcell .v-tabsheet-tabitem-selected .v-caption.v-caption {
-	border-bottom-color: #e61a1a;
-	color: #e61a1a;
+	border-bottom-color: #1a80e6;
+	color: #1a80e6;
 }
 
 .windows8 .v-tabsheet-tabitemcell .v-tabsheet-caption-close {
@@ -9002,12 +8996,12 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-tabsheet-tabitemcell .v-tabsheet-caption-close:hover {
 	background: rgba(0, 0, 0, 0.03);
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-tabsheet-tabitemcell .v-tabsheet-caption-close:active {
-	background: #e61a1a;
-	color: #eec9c9;
+	background: #1a80e6;
+	color: #c9dbee;
 }
 
 .windows8 .v-tabsheet-scroller {
@@ -9024,7 +9018,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-tabsheet-scroller:after {
 	content: "";
-	height: 2px;
+	height: 1px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -9066,13 +9060,13 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-tabsheet-scroller button:hover {
 	opacity: 1;
 	filter: none ;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-tabsheet-scroller button:active {
 	opacity: 0.7;
 	filter: alpha(opacity=70) ;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-tabsheet-scroller button::-moz-focus-inner {
@@ -9117,9 +9111,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(230, 26, 26, 0.2);
-	border-top-color: #e61a1a;
-	border-right-color: #e61a1a;
+	border: 2px solid rgba(26, 128, 230, 0.2);
+	border-top-color: #1a80e6;
+	border-right-color: #1a80e6;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -9172,8 +9166,8 @@ div.v-layout.v-horizontal.v-widget {
 	position: relative;
 	margin-left: 4px;
 	padding: 0 12px;
-	border: 2px solid transparent;
-	line-height: 35px;
+	border: 1px solid transparent;
+	line-height: 36px;
 	border-radius: 0 0 0 0;
 	font-weight: 400;
 	-webkit-transition: background-color 160ms;
@@ -9198,7 +9192,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: white;
 	border-color: rgba(255, 255, 255, 0.2);
 	border-bottom: none;
-	padding-bottom: 2px;
+	padding-bottom: 1px;
 }
 
 .windows8 .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-caption-closable {
@@ -9213,7 +9207,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-tabsheet-framed  > .v-tabsheet-content {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-top: none;
 }
 
@@ -9222,7 +9216,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-tabsheet-framed.padded-tabbar  > .v-tabsheet-tabcontainer {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-bottom: none;
 	background: #981aa0;
 	padding-top: 6px;
@@ -9251,7 +9245,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-tabsheet-icons-on-top  > div > .v-tabsheet-tabs .v-tabsheet-tabitem-selected .v-caption {
-	padding-bottom: 8px;
+	padding-bottom: 7px;
 }
 
 .windows8 .v-tabsheet-icons-on-top  > div > .v-tabsheet-tabs .v-icon {
@@ -9356,7 +9350,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: auto !important;
 	padding: 9px 0;
 	background-color: #981aa0;
-	border-top: 2px solid #901998;
+	border-top: 1px solid #901998;
 }
 
 .windows8 .v-colorpicker-popup .v-horizontallayout .v-expand {
@@ -9419,7 +9413,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: white;
 	color: #474747;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	
 	
 	overflow: visible !important;
@@ -9430,8 +9424,8 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 0 12px;
-	line-height: 35px;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	line-height: 36px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
 	background-image: -webkit-linear-gradient(top, #9a1aa1 2%, #93189c 98%);
 	background-image: linear-gradient(to bottom,#9a1aa1 2%, #93189c 98%);
@@ -9441,7 +9435,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
-	border-radius: -2px -2px 0 0;
+	border-radius: -1px -1px 0 0;
 }
 
 .windows8 .v-panel-content {
@@ -9493,7 +9487,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-panel-well  > div > [class*="-caption"] {
@@ -9510,11 +9504,11 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-panel-scroll-divider  > [class*="-captionwrap"]:after {
 	content: "";
 	position: absolute;
-	bottom: -2px;
+	bottom: -1px;
 	right: 0;
 	left: 0;
 	height: 0;
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -9524,7 +9518,7 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 2;
 	top: 0;
 	height: 0;
-	border-top: 2px solid #fff;
+	border-top: 1px solid white;
 	left: 0;
 	right: 0;
 }
@@ -9546,7 +9540,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: white;
 	color: #474747;
 	border-radius: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	
 	
 	background-color: #981aa0;
@@ -9569,7 +9563,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-accordion-item[class*="item-open"] + [class*="item"] {
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-accordion-item-caption {
@@ -9581,8 +9575,8 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 0 12px;
-	line-height: 35px;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	line-height: 36px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
 	background-image: -webkit-linear-gradient(top, #9a1aa1 2%, #93189c 98%);
 	background-image: linear-gradient(to bottom,#9a1aa1 2%, #93189c 98%);
@@ -9660,7 +9654,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-select-twincol select {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
 	background-image: -webkit-linear-gradient(top, #a01ca7 2%, #891691 98%);
 	background-image: linear-gradient(to bottom,#a01ca7 2%, #891691 98%);
@@ -9707,7 +9701,7 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	left: 9px;
 	right: 9px;
-	top: 35px;
+	top: 36px;
 	padding: 0;
 	text-align: center;
 }
@@ -9735,7 +9729,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-select select {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
 	background-image: -webkit-linear-gradient(top, #a01ca7 2%, #891691 98%);
 	background-image: linear-gradient(to bottom,#a01ca7 2%, #891691 98%);
@@ -9852,7 +9846,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-calendar-bottom-spacer:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-calendar-day-number {
@@ -9866,24 +9860,24 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-calendar-day-number:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-calendar-month-day-today {
-	background: #9b1999;
+	background: #911fa3;
 }
 
 .windows8 .v-calendar-month-day-today .v-calendar-day-number {
 	font-weight: 400;
-	color: #e61a1a;
-	border-top: 2px solid #e61a1a;
+	color: #1a80e6;
+	border-top: 2px solid #1a80e6;
 	line-height: 24px;
 	margin: 0;
 	padding: 0 5px;
 }
 
 .windows8 .v-calendar-month-day-selected {
-	background-color: #9f1a92;
+	background-color: #8b24a7;
 }
 
 .windows8 .v-calendar-month-day-dragemphasis {
@@ -9953,7 +9947,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-calendar-current-time {
-	background: #e61a1a;
+	background: #1a80e6;
 	line-height: 1px;
 	pointer-events: none;
 	opacity: 0.5;
@@ -9962,7 +9956,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-calendar-current-time:before {
 	content: "\2022";
-	color: #e61a1a;
+	color: #1a80e6;
 	font-size: 22px;
 	margin-left: -0.07em;
 }
@@ -9978,7 +9972,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	bottom: -1px;
 	left: 0;
-	background: #e61a1a;
+	background: #1a80e6;
 	opacity: 0.5;
 	filter: alpha(opacity=50) ;
 }
@@ -10074,7 +10068,7 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-calendar-week-wrapper .v-calendar-event-content {
 	margin-top: -1px;
 	border-radius: 1px;
-	border: 1px solid #fff;
+	border: 1px solid white;
 	padding-top: 3px;
 	margin-right: 5px;
 }
@@ -10243,7 +10237,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-label-colored {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .windows8 .v-label-large {
@@ -10285,9 +10279,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(230, 26, 26, 0.2);
-	border-top-color: #e61a1a;
-	border-right-color: #e61a1a;
+	border: 2px solid rgba(26, 128, 230, 0.2);
+	border-top-color: #1a80e6;
+	border-right-color: #1a80e6;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -10351,7 +10345,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: -1px;
 	bottom: -1px;
 	left: -1px;
-	border: 0 solid #e61a1a;
+	border: 0 solid #1a80e6;
 }
 
 .windows8 .v-ddwrapper-over-top:before {
@@ -10379,7 +10373,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .windows8 .no-vertical-drag-hints .v-ddwrapper-over-bottom:before, .windows8 .no-vertical-drag-hints.v-ddwrapper-over-bottom:before {
@@ -10391,7 +10385,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .windows8 .no-horizontal-drag-hints.v-ddwrapper-over-left:before, .windows8 .no-horizontal-drag-hints .v-ddwrapper-over-left:before {
@@ -10403,7 +10397,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .windows8 .no-horizontal-drag-hints.v-ddwrapper-over-right:before, .windows8 .no-horizontal-drag-hints .v-ddwrapper-over-right:before {
@@ -10415,7 +10409,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .windows8 .v-ddwrapper-over-middle:after, .windows8 .v-ddwrapper-over-center:after {
@@ -10423,7 +10417,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .windows8 .no-box-drag-hints.v-ddwrapper:after, .windows8 .no-box-drag-hints .v-ddwrapper:after {
@@ -10436,7 +10430,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-select select {
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: #981aa0;
 	background-image: -webkit-linear-gradient(top, #a01ca7 2%, #891691 98%);
 	background-image: linear-gradient(to bottom,#a01ca7 2%, #891691 98%);
@@ -10465,7 +10459,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .v-popupview {
 	cursor: pointer;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -10474,7 +10468,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-popupview:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .windows8 .v-popupview-popup {
@@ -10482,8 +10476,8 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	background-color: #8b1893;
 	color: #e3bae5;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 2px rgba(0, 0, 0, 0.12775);
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.12775);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -10525,9 +10519,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(230, 26, 26, 0.2);
-	border-top-color: #e61a1a;
-	border-right-color: #e61a1a;
+	border: 2px solid rgba(26, 128, 230, 0.2);
+	border-top-color: #1a80e6;
+	border-right-color: #1a80e6;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -10565,7 +10559,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 37px;
 	border-radius: 0;
 	padding: 0;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	background: white;
 	color: #474747;
 	-webkit-box-shadow: inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -10593,7 +10587,7 @@ div.v-layout.v-horizontal.v-widget {
 	background-image: linear-gradient(to bottom,#a01ca7 2%, #891691 98%);
 	
 	
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	color: #e4bde7;
 }
 
@@ -10831,7 +10825,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-Notification h1 {
-	color: #e61a1a;
+	color: #1a80e6;
 	font-size: 19px;
 	line-height: 1;
 }
@@ -11036,7 +11030,7 @@ div.v-layout.v-horizontal.v-widget {
 	opacity: 0.5;
 	filter: alpha(opacity=50) ;
 	text-align: center;
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	border-color: rgba(255, 255, 255, 0.3);
 	border-radius: 50%;
 	-webkit-transition: opacity 200ms;
@@ -11116,7 +11110,7 @@ div.v-layout.v-horizontal.v-widget {
 	color: #a6a6a6;
 	font-size: 14px;
 	line-height: 30px;
-	border-right: 2px solid rgba(255, 255, 255, 0.2);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	white-space: nowrap;
 }
 
@@ -11130,7 +11124,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .valo-menu-part {
-	border-left: 2px solid rgba(255, 255, 255, 0.2);
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
 	height: 100%;
 	padding-bottom: 37px;
 	overflow: auto;
@@ -11154,14 +11148,14 @@ div.v-layout.v-horizontal.v-widget {
 
 .windows8 .valo-menu-title {
 	line-height: 1.2;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 	padding: 12px 19px;
 	font-size: 14px;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	
 	
 	text-align: center;
@@ -11194,7 +11188,7 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-menubar-user-menu {
 	border: none;
 	border-radius: 0;
-	padding: 2px;
+	padding: 1px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	text-shadow: none;
@@ -11216,9 +11210,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	border: none;
-	margin-right: 2px;
+	margin-right: 1px;
 	border-radius: 0;
-	color: #e61a1a;
+	color: #1a80e6;
 	padding: 0 12px;
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -11234,7 +11228,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-menubar-user-menu .v-menubar-menuitem:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .windows8 .v-menubar-user-menu .v-menubar-menuitem:active {
@@ -11242,22 +11236,22 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .v-menubar-user-menu .v-menubar-menuitem-checked, .windows8 .v-menubar-user-menu .v-menubar-menuitem-checked:first-child {
-	border: 2px solid rgba(255, 255, 255, 0.2);
-	color: #e61a1a;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	color: #1a80e6;
 }
 
 .windows8 .v-menubar-user-menu .v-menubar-menuitem-checked .v-menubar-menuitem-caption, .windows8 .v-menubar-user-menu .v-menubar-menuitem-checked:first-child .v-menubar-menuitem-caption {
 	position: relative;
-	top: -2px;
+	top: -1px;
 }
 
 .windows8 .v-menubar-user-menu .v-menubar-menuitem-selected {
-	color: #f8eded;
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .windows8 .v-menubar-user-menu .v-menubar-menuitem-selected:hover {
-	color: #f8eded;
+	color: #edf2f8;
 }
 
 .windows8 .v-menubar-user-menu .v-menubar-menuitem-disabled, .windows8 .v-menubar-user-menu .v-menubar-menuitem-disabled:hover {
@@ -11274,11 +11268,11 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .v-menubar-user-menu  > .v-menubar-menuitem img.v-icon {
 	width: 56px;
 	height: 56px;
-	border-radius: 30px;
+	border-radius: 29px;
 	
 	display: block;
 	margin: 0 auto 0.3em;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .windows8 .v-menubar-user-menu  > .v-menubar-menuitem:after {
@@ -11295,11 +11289,11 @@ div.v-layout.v-horizontal.v-widget {
 .windows8 .valo-menu-subtitle {
 	color: #878787;
 	margin: 7px 0 7px 19px;
-	border-bottom: 2px solid #676767;
+	border-bottom: 1px solid #676767;
 }
 
 .windows8 .valo-menu-subtitle [class*="badge"] {
-	color: #d97373;
+	color: #73a6d9;
 }
 
 .windows8 .valo-menuitems {
@@ -11329,7 +11323,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .valo-menu-item [class*="badge"] {
-	color: #d97373;
+	color: #73a6d9;
 }
 
 .windows8 .valo-menu-item.selected {
@@ -11337,14 +11331,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .windows8 .valo-menu-item.selected .v-icon {
-	color: #eb4747;
+	color: #1a80e6;
 }
 
 .windows8 .valo-menu-item.selected [class*="badge"] {
-	background-color: #eb4747;
-	background-image: -webkit-linear-gradient(top, #ec4c4c 2%, #df3e3e 98%);
-	background-image: linear-gradient(to bottom,#ec4c4c 2%, #df3e3e 98%);
-	color: #f1d4d4;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	color: #c9dbee;
 }
 
 .windows8 .valo-menu-item:focus, .windows8 .valo-menu-item:hover, .windows8 .valo-menu-item.selected {
@@ -11427,7 +11421,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 1;
 	padding: 12px;
 	text-align: center;
-	border-top: 2px solid #575757;
+	border-top: 1px solid #575757;
 }
 
 .windows8 .valo-menu-part.large-icons .valo-menu-item:first-child {
@@ -11478,9 +11472,9 @@ div.v-layout.v-horizontal.v-widget {
 	height: 44px;
 	border-radius: 0;
 	text-align: center;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	color: white;
 	font-size: 25px;
 	line-height: 44px;
@@ -11544,7 +11538,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 1;
 	padding: 12px;
 	text-align: center;
-	border-top: 2px solid #575757;
+	border-top: 1px solid #575757;
 }
 
 .windows8 .v-ui[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item:first-child {
@@ -11633,7 +11627,7 @@ div.v-layout.v-horizontal.v-widget {
 	margin: 0;
 	padding: 0;
 	height: 37px;
-	color: #e69999;
+	color: #99bfe6;
 	max-width: 30%;
 }
 
@@ -11659,7 +11653,7 @@ div.v-layout.v-horizontal.v-widget {
 	color: #a6a6a6;
 	font-size: 14px;
 	line-height: 30px;
-	border-right: 2px solid rgba(255, 255, 255, 0.2);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	white-space: nowrap;
 	position: fixed;
 	z-index: 200;

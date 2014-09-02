@@ -1,6 +1,6 @@
 
 // Use white background color for embedding
-$v-app-background-color: #fff;
+$v-app-background-color: hsl(210, 0%, 100%);
 
 // Font style
 $v-font-family: "Source Sans Pro", sans-serif;
@@ -9,7 +9,7 @@ $v-font-family: "Source Sans Pro", sans-serif;
 
 // Background, border color and gradients
 $v-background-color: #981aa0;
-$v-border: 2px solid rgba(#fff,0.2);
+$v-border: 1px solid rgba(#fff,0.2);
 $v-border-radius: 0;
 $v-bevel: false;
 $v-shadow: false;

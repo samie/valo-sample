@@ -1,8 +1,8 @@
 
 // Use white background color for embedding
-$v-app-background-color: #fff;
+$v-app-background-color: hsl(210, 0%, 100%);
 
-@import "../valo/valo.scss";
+@import "../valo/valo";
 
 .valosample {
     // Include Valo styles in your theme

@@ -1,6 +1,6 @@
 
 // Use white background color for embedding
-$v-app-background-color: #fff;
+$v-app-background-color: hsl(210, 0%, 100%);
 
 // Font style
 $v-font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
@@ -22,7 +22,7 @@ $v-focus-color: #3b5998;
 $v-focus-style: 0 0 1px 1px rgba($v-focus-color, .5);
 $v-shadow: 0 1px 0 (v-shade 0.2);
 
-@import "../valo/valo.scss";
+@import "../valo/valo";
 
 .facebook {
   @include valo;  

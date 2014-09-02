@@ -1273,14 +1273,14 @@ div.v-layout.v-horizontal.v-widget {
 .ios.v-app, .ios.v-app-loading {
 	font: 300 16px/1.55 "Source Sans Pro", sans-serif;
 	color: #474747;
-	background-color: #fff;
+	background-color: white;
 	cursor: default;
 }
 
 .ios .v-app-loading {
 	width: 100%;
 	height: 100%;
-	background: #fff;
+	background: white;
 }
 
 .ios .v-app-loading:before {
@@ -1307,7 +1307,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 50%;
 	opacity: 1;
 	height: 4px;
-	background-color: #e61a1a;
+	background-color: #1a80e6;
 	pointer-events: none;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -1443,7 +1443,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios a {
 	cursor: pointer;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -1452,7 +1452,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios a:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .ios .v-disabled {
@@ -1460,7 +1460,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-drag-element {
-	background: #fff;
+	background: white;
 	color: #474747;
 	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -1565,7 +1565,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #aa0909;
+	background: #0959aa;
 	opacity: 0.15;
 	filter: alpha(opacity=15.0) ;
 	pointer-events: none;
@@ -1579,10 +1579,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-contextmenu .gwt-MenuItem-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
-	color: #f8eded;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -1784,7 +1784,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-button:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -1796,19 +1796,19 @@ div.v-layout.v-horizontal.v-widget {
 .ios .v-button-primary {
 	height: 37px;
 	padding: 0 16px;
-	color: #f8eded;
+	color: #edf2f8;
 	font-weight: 400;
 	
 	
 	border-radius: 4px;
-	border: 1px solid #b51414;
-	border-top-color: #b71616;
-	border-bottom-color: #ac1111;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
-	-webkit-box-shadow: inset 0 1px 0 #ea4f4f, inset 0 -1px 0 #cf1616, 0 2px 3px rgba(0, 0, 0, 0.05);
-	box-shadow: inset 0 1px 0 #ea4f4f, inset 0 -1px 0 #cf1616, 0 2px 3px rgba(0, 0, 0, 0.05);
+	border: 1px solid #1465b5;
+	border-top-color: #166db7;
+	border-bottom-color: #1158ac;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	-webkit-box-shadow: inset 0 1px 0 #4f9bea, inset 0 -1px 0 #166dcf, 0 2px 3px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 #4f9bea, inset 0 -1px 0 #166dcf, 0 2px 3px rgba(0, 0, 0, 0.05);
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 	padding: 0 19px;
 	font-weight: bold;
@@ -1824,7 +1824,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-button-primary:hover:after {
-	background-color: rgba(237, 94, 94, 0.1);
+	background-color: rgba(94, 166, 237, 0.1);
 }
 
 .ios .v-button-primary:focus:after {
@@ -1834,7 +1834,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-button-primary:active:after {
-	background-color: rgba(125, 3, 3, 0.2);
+	background-color: rgba(3, 64, 125, 0.2);
 }
 
 .v-ie8 .ios .v-button-primary {
@@ -1873,7 +1873,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-button-friendly:focus:after {
-	border-color: #e61a1a;
+	border: inherit;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -1949,11 +1949,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	background: transparent;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-button-borderless-colored:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .ios .v-button-borderless-colored:hover:after {
@@ -1992,7 +1992,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: transparent;
 	color: inherit;
 	cursor: pointer;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -2014,7 +2014,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-button-link:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .ios .v-button-tiny {
@@ -2177,7 +2177,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox > input:focus ~ label:before {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
@@ -2234,7 +2234,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox > input ~ label:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -2257,7 +2257,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .ios .v-checkbox > input[disabled]  ~ label, :root .ios .v-checkbox > input[disabled]  ~ label .v-icon, :root .ios .v-checkbox > input[disabled]  ~ .v-icon {
@@ -2311,7 +2311,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox-small > input:focus ~ label:before {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
@@ -2368,7 +2368,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox-small > input ~ label:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -2391,7 +2391,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox-small > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .ios .v-checkbox-small > input[disabled]  ~ label, :root .ios .v-checkbox-small > input[disabled]  ~ label .v-icon, :root .ios .v-checkbox-small > input[disabled]  ~ .v-icon {
@@ -2445,7 +2445,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox-large > input:focus ~ label:before {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
@@ -2502,7 +2502,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox-large > input ~ label:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -2525,7 +2525,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-checkbox-large > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .ios .v-checkbox-large > input[disabled]  ~ label, :root .ios .v-checkbox-large > input[disabled]  ~ label .v-icon, :root .ios .v-checkbox-large > input[disabled]  ~ .v-icon {
@@ -2606,7 +2606,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
 	box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
 	-webkit-box-shadow: 0 0 1px 1px #aae;
@@ -2792,7 +2792,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #aa0909;
+	background: #0959aa;
 	opacity: 0.15;
 	filter: alpha(opacity=15.0) ;
 	pointer-events: none;
@@ -2806,10 +2806,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-filterselect-suggestpopup .gwt-MenuItem-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
-	color: #f8eded;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -2952,7 +2952,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
 	-webkit-box-shadow: 0 0 1px 1px #aae;
@@ -3783,7 +3783,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae, none;
 	box-shadow: 0 0 1px 1px #aae, none;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
@@ -3973,7 +3973,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
 	box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
 	-webkit-box-shadow: 0 0 1px 1px #aae;
@@ -4443,7 +4443,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
 	box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
 	-webkit-box-shadow: 0 0 1px 1px #aae;
@@ -4732,7 +4732,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
 	box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0.1);
 	-webkit-box-shadow: 0 0 1px 1px #aae;
@@ -4927,7 +4927,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-datefield-popup .v-datefield-calendarpanel-day:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-datefield-popup .v-datefield-calendarpanel-day-offmonth {
@@ -4942,10 +4942,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected, .ios .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected:hover {
-	color: #eec9c9;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	color: #c9dbee;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	border: none;
 	font-weight: 600;
 }
@@ -4957,7 +4957,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .ios .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-focused {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 }
 
 .ios .v-datefield-popup .v-datefield-calendarpanel-weekdays {
@@ -5009,7 +5009,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-datefield-popup td[class$="year"] button:hover:before, .ios .v-datefield-popup td[class$="month"] button:hover:before {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-datefield-popup .v-button-prevyear:before {
@@ -5034,7 +5034,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-datefield-popup td.v-datefield-calendarpanel-month {
 	width: 148px;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-datefield-popup .v-datefield-calendarpanel-year td.v-datefield-calendarpanel-month {
@@ -5064,7 +5064,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-right: 1px solid #eeeeee;
 	border-top-right-radius: 4px;
 	border-bottom-left-radius: 4px;
-	background: #fff;
+	background: white;
 }
 
 .ios .v-datefield-popup td.v-datefield-calendarpanel-time {
@@ -5110,7 +5110,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-datefield-calendarpanel-day:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-datefield-calendarpanel-day-offmonth {
@@ -5125,10 +5125,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected, .ios .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected:hover {
-	color: #eec9c9;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	color: #c9dbee;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	border: none;
 	font-weight: 600;
 }
@@ -5140,7 +5140,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .ios .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-focused {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 }
 
 .ios .v-datefield-calendarpanel-weekdays {
@@ -5192,7 +5192,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios td[class$="year"] button:hover:before, .ios td[class$="month"] button:hover:before {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-button-prevyear:before {
@@ -5217,7 +5217,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios td.v-datefield-calendarpanel-month {
 	width: 148px;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-datefield-calendarpanel-year td.v-datefield-calendarpanel-month {
@@ -5247,7 +5247,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-right: 1px solid #eeeeee;
 	border-top-right-radius: 4px;
 	border-bottom-left-radius: 4px;
-	background: #fff;
+	background: white;
 }
 
 .ios td.v-datefield-calendarpanel-time {
@@ -5811,7 +5811,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-inline-datefield-calendarpanel-day:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-inline-datefield-calendarpanel-day-offmonth {
@@ -5826,10 +5826,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-selected, .ios .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-selected:hover {
-	color: #eec9c9;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	color: #c9dbee;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	border: none;
 	font-weight: 600;
 }
@@ -5841,7 +5841,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .ios .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-focused {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 }
 
 .ios .v-inline-datefield-calendarpanel-weekdays {
@@ -5893,7 +5893,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios td[class$="year"] button:hover:before, .ios td[class$="month"] button:hover:before {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-button-prevyear:before {
@@ -5918,7 +5918,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios td.v-inline-datefield-calendarpanel-month {
 	width: 148px;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-inline-datefield-calendarpanel-year td.v-inline-datefield-calendarpanel-month {
@@ -5948,7 +5948,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-right: 1px solid #eeeeee;
 	border-top-right-radius: 4px;
 	border-bottom-left-radius: 4px;
-	background: #fff;
+	background: white;
 }
 
 .ios td.v-inline-datefield-calendarpanel-time {
@@ -6055,7 +6055,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-menubar:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -6179,19 +6179,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-menubar > .v-menubar-menuitem-selected {
-	color: #f8eded;
+	color: #edf2f8;
 	
 	
 	
 	border-radius: 0;
-	border: 1px solid #b51414;
-	border-top-color: #b71616;
-	border-bottom-color: #ac1111;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
-	-webkit-box-shadow: inset 0 1px 0 #ea4f4f, inset 0 -1px 0 #cf1616;
-	box-shadow: inset 0 1px 0 #ea4f4f, inset 0 -1px 0 #cf1616;
+	border: 1px solid #1465b5;
+	border-top-color: #166db7;
+	border-bottom-color: #1158ac;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	-webkit-box-shadow: inset 0 1px 0 #4f9bea, inset 0 -1px 0 #166dcf;
+	box-shadow: inset 0 1px 0 #4f9bea, inset 0 -1px 0 #166dcf;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 	border-top-width: 0;
 	border-left-width: 0;
@@ -6272,7 +6272,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #aa0909;
+	background: #0959aa;
 	opacity: 0.15;
 	filter: alpha(opacity=15.0) ;
 	pointer-events: none;
@@ -6298,10 +6298,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-menubar-popup .v-menubar-menuitem-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
-	color: #f8eded;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -6385,7 +6385,7 @@ div.v-layout.v-horizontal.v-widget {
 	border: none;
 	margin-right: 1px;
 	border-radius: 4px;
-	color: #e61a1a;
+	color: #1a80e6;
 	padding: 0 12px;
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -6401,7 +6401,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-menubar-borderless .v-menubar-menuitem:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .ios .v-menubar-borderless .v-menubar-menuitem:active {
@@ -6410,7 +6410,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-menubar-borderless .v-menubar-menuitem-checked, .ios .v-menubar-borderless .v-menubar-menuitem-checked:first-child {
 	border: 1px solid #c5c5c5;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-menubar-borderless .v-menubar-menuitem-checked .v-menubar-menuitem-caption, .ios .v-menubar-borderless .v-menubar-menuitem-checked:first-child .v-menubar-menuitem-caption {
@@ -6419,12 +6419,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-menubar-borderless .v-menubar-menuitem-selected {
-	color: #f8eded;
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .ios .v-menubar-borderless .v-menubar-menuitem-selected:hover {
-	color: #f8eded;
+	color: #edf2f8;
 }
 
 .ios .v-menubar-borderless .v-menubar-menuitem-disabled, .ios .v-menubar-borderless .v-menubar-menuitem-disabled:hover {
@@ -6462,7 +6462,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-radiobutton > input:focus ~ label:before {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
@@ -6519,7 +6519,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-radiobutton > input ~ label:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -6542,7 +6542,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-radiobutton > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .ios .v-radiobutton > input[disabled]  ~ label, :root .ios .v-radiobutton > input[disabled]  ~ label .v-icon, :root .ios .v-radiobutton > input[disabled]  ~ .v-icon {
@@ -6569,7 +6569,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 7px;
 	top: 6px;
 	left: 6px;
-	background: #e61a1a;
+	background: #1a80e6;
 }
 
 :root .ios .v-radiobutton > input ~ label:before, :root .ios .v-radiobutton > input ~ label:after {
@@ -6629,7 +6629,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-small .v-checkbox > input:focus ~ label:before {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
@@ -6686,7 +6686,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-small .v-checkbox > input ~ label:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -6709,7 +6709,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-small .v-checkbox > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .ios .v-select-optiongroup-small .v-checkbox > input[disabled]  ~ label, :root .ios .v-select-optiongroup-small .v-checkbox > input[disabled]  ~ label .v-icon, :root .ios .v-select-optiongroup-small .v-checkbox > input[disabled]  ~ .v-icon {
@@ -6762,7 +6762,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-small .v-radiobutton > input:focus ~ label:before {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
@@ -6819,7 +6819,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-small .v-radiobutton > input ~ label:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -6842,7 +6842,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-small .v-radiobutton > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .ios .v-select-optiongroup-small .v-radiobutton > input[disabled]  ~ label, :root .ios .v-select-optiongroup-small .v-radiobutton > input[disabled]  ~ label .v-icon, :root .ios .v-select-optiongroup-small .v-radiobutton > input[disabled]  ~ .v-icon {
@@ -6869,7 +6869,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 6px;
 	top: 5px;
 	left: 5px;
-	background: #e61a1a;
+	background: #1a80e6;
 }
 
 :root .ios .v-select-optiongroup-small .v-radiobutton > input ~ label:before, :root .ios .v-select-optiongroup-small .v-radiobutton > input ~ label:after {
@@ -6929,7 +6929,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-large .v-checkbox > input:focus ~ label:before {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
@@ -6986,7 +6986,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-large .v-checkbox > input ~ label:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -7009,7 +7009,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-large .v-checkbox > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .ios .v-select-optiongroup-large .v-checkbox > input[disabled]  ~ label, :root .ios .v-select-optiongroup-large .v-checkbox > input[disabled]  ~ label .v-icon, :root .ios .v-select-optiongroup-large .v-checkbox > input[disabled]  ~ .v-icon {
@@ -7062,7 +7062,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-large .v-radiobutton > input:focus ~ label:before {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	-webkit-box-shadow: 0 0 1px 1px #aae, inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
@@ -7119,7 +7119,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-large .v-radiobutton > input ~ label:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -7142,7 +7142,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .ios .v-select-optiongroup-large .v-radiobutton > input:checked ~ label:after {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 :root .ios .v-select-optiongroup-large .v-radiobutton > input[disabled]  ~ label, :root .ios .v-select-optiongroup-large .v-radiobutton > input[disabled]  ~ label .v-icon, :root .ios .v-select-optiongroup-large .v-radiobutton > input[disabled]  ~ .v-icon {
@@ -7169,7 +7169,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 8px;
 	top: 7px;
 	left: 7px;
-	background: #e61a1a;
+	background: #1a80e6;
 }
 
 :root .ios .v-select-optiongroup-large .v-radiobutton > input ~ label:before, :root .ios .v-select-optiongroup-large .v-radiobutton > input ~ label:after {
@@ -7212,7 +7212,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-link {
 	cursor: pointer;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -7221,7 +7221,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-link:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .ios .v-link a {
@@ -7381,7 +7381,7 @@ div.v-layout.v-horizontal.v-widget {
 .ios .v-window-closebox:hover, .ios .v-window-maximizebox:hover, .ios .v-window-restorebox:hover {
 	opacity: 1;
 	filter: none ;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-window-closebox:active, .ios .v-window-maximizebox:active, .ios .v-window-restorebox:active {
@@ -7721,30 +7721,30 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-tree-node-focused:after {
 	opacity: 1;
-	border: 1px solid #e61a1a;
+	border: 1px solid #1a80e6;
 }
 
 .v-ie8 .ios .v-tree-node-focused {
-	outline: 1px dotted #e61a1a;
+	outline: 1px dotted #1a80e6;
 }
 
 .ios .v-tree-node-selected {
-	color: #f8eded;
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .ios .v-tree-node-selected:after {
 	opacity: 1;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	border: none;
 }
 
 .v-ie8 .ios .v-tree-node-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 }
 
 .ios .v-tree-node-children {
@@ -7761,10 +7761,10 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	height: 2px;
 	width: 100%;
-	background: #e61a1a;
+	background: #1a80e6;
 	font-size: 32px;
 	line-height: 2px;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-indent: -4px;
 	text-shadow: 0 0 1px #fafafa, 0 0 1px #fafafa;
 	opacity: 1;
@@ -7776,14 +7776,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-tree-node-caption-drag-center {
-	-webkit-box-shadow: 0 0 0 2px #e61a1a;
-	box-shadow: 0 0 0 2px #e61a1a;
+	-webkit-box-shadow: 0 0 0 2px #1a80e6;
+	box-shadow: 0 0 0 2px #1a80e6;
 	position: relative;
 	border-radius: 4px;
 }
 
 .v-ie8 .ios .v-tree-node-caption-drag-center {
-	outline: 2px solid #e61a1a;
+	outline: 2px solid #1a80e6;
 }
 
 .v-ff .ios .v-tree-node-drag-top:before, .v-ff .ios .v-tree-node-drag-bottom:after {
@@ -7936,25 +7936,25 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-table [class*="-row"].v-selected {
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	background-origin: border-box;
-	color: #f8eded;
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .ios .v-table [class*="-row"].v-selected  + .v-selected {
-	background: #da1616;
+	background: #1670da;
 }
 
 .ios .v-table [class*="-row"].v-selected  + .v-selected td {
-	border-top-color: #da1616;
+	border-top-color: #1670da;
 }
 
 .ios .v-table [class*="-row"].v-selected .v-table-cell-content {
 	border-color: transparent;
-	border-left-color: #b81e1e;
+	border-left-color: #1e6bb8;
 }
 
 .ios .v-table [class*="-row"].v-selected .v-table-cell-content:first-child {
@@ -7990,7 +7990,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-table-focus {
-	outline: 1px solid #e61a1a;
+	outline: 1px solid #1a80e6;
 	outline-offset: -1px;
 }
 
@@ -8008,14 +8008,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-table-focus-slot-right {
-	border-right: 3px solid #e61a1a;
+	border-right: 3px solid #1a80e6;
 	right: -2px;
 	margin-left: -11px;
 }
 
 .ios .v-table-focus-slot-left {
 	float: left;
-	border-left: 3px solid #e61a1a;
+	border-left: 3px solid #1a80e6;
 	left: -1px;
 	right: auto;
 	margin-left: 0 !important;
@@ -8070,7 +8070,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-table-column-selector:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -8173,13 +8173,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-table-drag .v-table-body {
-	-webkit-box-shadow: 0 0 0 2px rgba(230, 26, 26, 0.5);
-	box-shadow: 0 0 0 2px rgba(230, 26, 26, 0.5);
-	border-color: #e61a1a;
+	-webkit-box-shadow: 0 0 0 2px rgba(26, 128, 230, 0.5);
+	box-shadow: 0 0 0 2px rgba(26, 128, 230, 0.5);
+	border-color: #1a80e6;
 }
 
 .v-ie8 .ios .v-table-drag .v-table-body {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 }
 
 .ios .v-table-drag .v-table-body .v-table-focus {
@@ -8194,7 +8194,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 38px;
 	left: 0;
 	right: 0;
-	background: #e61a1a;
+	background: #1a80e6;
 	opacity: 0.2;
 	filter: alpha(opacity=20) ;
 }
@@ -8206,10 +8206,10 @@ div.v-layout.v-horizontal.v-widget {
 	height: 2px;
 	left: 0;
 	right: 0;
-	background: #e61a1a;
+	background: #1a80e6;
 	font-size: 32px;
 	line-height: 2px;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-indent: -4px;
 	text-shadow: 0 0 1px white, 0 0 1px white;
 }
@@ -8445,7 +8445,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -8502,7 +8502,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -8558,7 +8558,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -8629,7 +8629,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -8667,12 +8667,12 @@ div.v-layout.v-horizontal.v-widget {
 .ios .v-progressbar-indicator {
 	border-radius: 4px;
 	height: inherit;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	
 	
-	border: 1px solid #b51414;
+	border: 1px solid #1465b5;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -8697,12 +8697,12 @@ div.v-layout.v-horizontal.v-widget {
 	display: inline-block;
 	border-radius: 4px;
 	height: inherit;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	
 	
-	border: 1px solid #b51414;
+	border: 1px solid #1465b5;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -8717,9 +8717,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(230, 26, 26, 0.2);
-	border-top-color: #e61a1a;
-	border-right-color: #e61a1a;
+	border: 2px solid rgba(26, 128, 230, 0.2);
+	border-top-color: #1a80e6;
+	border-right-color: #1a80e6;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -8789,18 +8789,18 @@ div.v-layout.v-horizontal.v-widget {
 	left: 11px;
 	width: 8px;
 	border-radius: 4px;
-	border-left: 1px solid #b51414;
+	border-left: 1px solid #1465b5;
 }
 
 .ios .v-slider-base:after {
 	border-radius: 4px;
 	height: inherit;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	
 	
-	border: 1px solid #b51414;
+	border: 1px solid #1465b5;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -8860,7 +8860,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-slider-handle:before:focus:after {
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 }
@@ -8871,7 +8871,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-slider-handle:after {
 	border: 1px solid #c5c5c5;
-	border-color: #e61a1a;
+	border-color: #1a80e6;
 	-webkit-box-shadow: 0 0 1px 1px #aae;
 	box-shadow: 0 0 1px 1px #aae;
 	opacity: 0;
@@ -8935,15 +8935,15 @@ div.v-layout.v-horizontal.v-widget {
 	width: auto;
 	height: 8px;
 	border-left: none;
-	border-bottom: 1px solid #b51414;
+	border-bottom: 1px solid #1465b5;
 }
 
 .ios .v-slider-vertical .v-slider-base:after {
 	height: 101%;
 	margin-left: 0;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(left, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to right,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(left, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to right,#1c8ae8 2%, #1670da 98%);
 }
 
 .v-ie8 .ios .v-slider-vertical .v-slider-base:after {
@@ -9038,7 +9038,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-tabsheet-tabitemcell .v-caption:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-tabsheet-tabitemcell .v-caption.v-disabled {
@@ -9058,12 +9058,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-tabsheet-tabitemcell:focus .v-caption {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-tabsheet-tabitemcell .v-tabsheet-tabitem-selected .v-caption.v-caption {
-	border-bottom-color: #e61a1a;
-	color: #e61a1a;
+	border-bottom-color: #1a80e6;
+	color: #1a80e6;
 }
 
 .ios .v-tabsheet-tabitemcell .v-tabsheet-caption-close {
@@ -9080,12 +9080,12 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-tabsheet-tabitemcell .v-tabsheet-caption-close:hover {
 	background: rgba(0, 0, 0, 0.03);
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-tabsheet-tabitemcell .v-tabsheet-caption-close:active {
-	background: #e61a1a;
-	color: #eec9c9;
+	background: #1a80e6;
+	color: #c9dbee;
 }
 
 .ios .v-tabsheet-scroller {
@@ -9144,13 +9144,13 @@ div.v-layout.v-horizontal.v-widget {
 .ios .v-tabsheet-scroller button:hover {
 	opacity: 1;
 	filter: none ;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-tabsheet-scroller button:active {
 	opacity: 0.7;
 	filter: alpha(opacity=70) ;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-tabsheet-scroller button::-moz-focus-inner {
@@ -9195,9 +9195,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(230, 26, 26, 0.2);
-	border-top-color: #e61a1a;
-	border-right-color: #e61a1a;
+	border: 2px solid rgba(26, 128, 230, 0.2);
+	border-top-color: #1a80e6;
+	border-right-color: #1a80e6;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -9602,7 +9602,7 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 2;
 	top: 0;
 	height: 0;
-	border-top: 1px solid #fff;
+	border-top: 1px solid white;
 	left: 0;
 	right: 0;
 }
@@ -9953,7 +9953,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-calendar-bottom-spacer:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-calendar-day-number {
@@ -9967,24 +9967,24 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-calendar-day-number:hover {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-calendar-month-day-today {
-	background: #f9eeee;
+	background: #eef3f9;
 }
 
 .ios .v-calendar-month-day-today .v-calendar-day-number {
 	font-weight: 400;
-	color: #e61a1a;
-	border-top: 2px solid #e61a1a;
+	color: #1a80e6;
+	border-top: 2px solid #1a80e6;
 	line-height: 24px;
 	margin: 0;
 	padding: 0 5px;
 }
 
 .ios .v-calendar-month-day-selected {
-	background-color: #f8e3e3;
+	background-color: #e3edf8;
 }
 
 .ios .v-calendar-month-day-dragemphasis {
@@ -10054,7 +10054,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-calendar-current-time {
-	background: #e61a1a;
+	background: #1a80e6;
 	line-height: 1px;
 	pointer-events: none;
 	opacity: 0.5;
@@ -10063,7 +10063,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-calendar-current-time:before {
 	content: "\2022";
-	color: #e61a1a;
+	color: #1a80e6;
 	font-size: 22px;
 	margin-left: -0.07em;
 }
@@ -10079,7 +10079,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	bottom: -1px;
 	left: 0;
-	background: #e61a1a;
+	background: #1a80e6;
 	opacity: 0.5;
 	filter: alpha(opacity=50) ;
 	border-radius: 4px 4px 0 0;
@@ -10192,7 +10192,7 @@ div.v-layout.v-horizontal.v-widget {
 .ios .v-calendar-week-wrapper .v-calendar-event-content {
 	margin-top: -1px;
 	border-radius: 5px;
-	border: 1px solid #fff;
+	border: 1px solid white;
 	padding-top: 3px;
 	margin-right: 5px;
 }
@@ -10361,7 +10361,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-label-colored {
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-label-large {
@@ -10403,9 +10403,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(230, 26, 26, 0.2);
-	border-top-color: #e61a1a;
-	border-right-color: #e61a1a;
+	border: 2px solid rgba(26, 128, 230, 0.2);
+	border-top-color: #1a80e6;
+	border-right-color: #1a80e6;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -10469,7 +10469,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: -1px;
 	bottom: -1px;
 	left: -1px;
-	border: 0 solid #e61a1a;
+	border: 0 solid #1a80e6;
 }
 
 .ios .v-ddwrapper-over-top:before {
@@ -10497,7 +10497,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 4px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .ios .no-vertical-drag-hints .v-ddwrapper-over-bottom:before, .ios .no-vertical-drag-hints.v-ddwrapper-over-bottom:before {
@@ -10509,7 +10509,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 4px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .ios .no-horizontal-drag-hints.v-ddwrapper-over-left:before, .ios .no-horizontal-drag-hints .v-ddwrapper-over-left:before {
@@ -10521,7 +10521,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 4px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .ios .no-horizontal-drag-hints.v-ddwrapper-over-right:before, .ios .no-horizontal-drag-hints .v-ddwrapper-over-right:before {
@@ -10533,7 +10533,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 4px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .ios .v-ddwrapper-over-middle:after, .ios .v-ddwrapper-over-center:after {
@@ -10541,7 +10541,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 4px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #f28c8c;
+	background: #8cbff2;
 }
 
 .ios .no-box-drag-hints.v-ddwrapper:after, .ios .no-box-drag-hints .v-ddwrapper:after {
@@ -10583,7 +10583,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-popupview {
 	cursor: pointer;
-	color: #e61a1a;
+	color: #1a80e6;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -10592,7 +10592,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-popupview:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .ios .v-popupview-popup {
@@ -10643,9 +10643,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(230, 26, 26, 0.2);
-	border-top-color: #e61a1a;
-	border-right-color: #e61a1a;
+	border: 2px solid rgba(26, 128, 230, 0.2);
+	border-top-color: #1a80e6;
+	border-right-color: #1a80e6;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -10949,7 +10949,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-Notification h1 {
-	color: #e61a1a;
+	color: #1a80e6;
 	font-size: 19px;
 	line-height: 1;
 }
@@ -11272,14 +11272,14 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .valo-menu-title {
 	line-height: 1.2;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 	padding: 12px 19px;
 	font-size: 14px;
-	border-bottom: 1px solid #b51414;
+	border-bottom: 1px solid #1465b5;
 	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
 	text-align: center;
@@ -11287,7 +11287,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .valo-menu-title .v-menubar.v-menubar {
 	background: transparent;
-	border-color: #b51414;
+	border-color: #1465b5;
 	color: inherit;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -11296,8 +11296,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .valo-menu-title .v-menubar-menuitem {
 	background: transparent;
-	-webkit-box-shadow: inset 0 1px 0 #ea4f4f, inset 0 -1px 0 #cf1616;
-	box-shadow: inset 0 1px 0 #ea4f4f, inset 0 -1px 0 #cf1616;
+	-webkit-box-shadow: inset 0 1px 0 #4f9bea, inset 0 -1px 0 #166dcf;
+	box-shadow: inset 0 1px 0 #4f9bea, inset 0 -1px 0 #166dcf;
 	text-shadow: inherit;
 	font-size: 16px;
 	border-color: inherit;
@@ -11336,7 +11336,7 @@ div.v-layout.v-horizontal.v-widget {
 	border: none;
 	margin-right: 1px;
 	border-radius: 4px;
-	color: #e61a1a;
+	color: #1a80e6;
 	padding: 0 12px;
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -11352,7 +11352,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-menubar-user-menu .v-menubar-menuitem:hover {
-	color: #eb4747;
+	color: #4799eb;
 }
 
 .ios .v-menubar-user-menu .v-menubar-menuitem:active {
@@ -11361,7 +11361,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .ios .v-menubar-user-menu .v-menubar-menuitem-checked, .ios .v-menubar-user-menu .v-menubar-menuitem-checked:first-child {
 	border: 1px solid #c5c5c5;
-	color: #e61a1a;
+	color: #1a80e6;
 }
 
 .ios .v-menubar-user-menu .v-menubar-menuitem-checked .v-menubar-menuitem-caption, .ios .v-menubar-user-menu .v-menubar-menuitem-checked:first-child .v-menubar-menuitem-caption {
@@ -11370,12 +11370,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .v-menubar-user-menu .v-menubar-menuitem-selected {
-	color: #f8eded;
+	color: #edf2f8;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .ios .v-menubar-user-menu .v-menubar-menuitem-selected:hover {
-	color: #f8eded;
+	color: #edf2f8;
 }
 
 .ios .v-menubar-user-menu .v-menubar-menuitem-disabled, .ios .v-menubar-user-menu .v-menubar-menuitem-disabled:hover {
@@ -11417,7 +11417,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .valo-menu-subtitle [class*="badge"] {
-	color: #d97373;
+	color: #73a6d9;
 }
 
 .ios .valo-menuitems {
@@ -11447,7 +11447,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .valo-menu-item [class*="badge"] {
-	color: #d97373;
+	color: #73a6d9;
 }
 
 .ios .valo-menu-item.selected {
@@ -11455,14 +11455,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .ios .valo-menu-item.selected .v-icon {
-	color: #eb4747;
+	color: #1a80e6;
 }
 
 .ios .valo-menu-item.selected [class*="badge"] {
-	background-color: #eb4747;
-	background-image: -webkit-linear-gradient(top, #ec4c4c 2%, #df3e3e 98%);
-	background-image: linear-gradient(to bottom,#ec4c4c 2%, #df3e3e 98%);
-	color: #f1d4d4;
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
+	color: #c9dbee;
 }
 
 .ios .valo-menu-item:focus, .ios .valo-menu-item:hover, .ios .valo-menu-item.selected {
@@ -11596,9 +11596,9 @@ div.v-layout.v-horizontal.v-widget {
 	height: 44px;
 	border-radius: 4px;
 	text-align: center;
-	background-color: #e61a1a;
-	background-image: -webkit-linear-gradient(top, #e81c1c 2%, #da1616 98%);
-	background-image: linear-gradient(to bottom,#e81c1c 2%, #da1616 98%);
+	background-color: #1a80e6;
+	background-image: -webkit-linear-gradient(top, #1c8ae8 2%, #1670da 98%);
+	background-image: linear-gradient(to bottom,#1c8ae8 2%, #1670da 98%);
 	color: white;
 	font-size: 25px;
 	line-height: 44px;
@@ -11751,7 +11751,7 @@ div.v-layout.v-horizontal.v-widget {
 	margin: 0;
 	padding: 0;
 	height: 37px;
-	color: #e69999;
+	color: #99bfe6;
 	max-width: 30%;
 }
 
@@ -11827,6 +11827,10 @@ div.v-layout.v-horizontal.v-widget {
 	background-image: linear-gradient(to bottom,#0b5596 0%, #27e3cb 100%);
 }
 
+.ios .v-button .v-button-wrap {
+	display: inline-block;
+}
+
 .ios .v-button .v-icon {
 	font-size: 3.7em;
 	color: #fff;
@@ -11835,6 +11839,6 @@ div.v-layout.v-horizontal.v-widget {
 .ios .v-button .v-button-caption {
 	color: #555;
 	display: block;
-	margin: -1.4em 0 0 0;
+	margin: 0;
 	font-weight: 100;
 }
