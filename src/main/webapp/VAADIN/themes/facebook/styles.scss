@@ -1,0 +1,30 @@
+
+// Use white background color for embedding
+$v-app-background-color: #fff;
+
+// Font style
+$v-font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
+$v-font-size: 14px;
+$v-font-color: #37404E;
+$v-font-weight: 400;
+
+// Size and margins
+$v-unit-size: 30px;
+
+// Background, border color and gradients
+$v-background-color: #506cbb;
+$v-border-radius: 3px;
+$v-gradient: v-linear 12%;
+$v-bevel: inset 0 1px 0 v-tint;
+
+// Focus styles
+$v-focus-color: #3b5998;
+$v-focus-style: 0 0 1px 1px rgba($v-focus-color, .5);
+$v-shadow: 0 1px 0 (v-shade 0.2);
+
+@import "../valo/valo.scss";
+
+.facebook {
+  @include valo;  
+}
+

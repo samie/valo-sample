@@ -1,0 +1,32 @@
+
+// Use white background color for embedding
+$v-app-background-color: #fff;
+
+// Font style
+$v-font-family: "Source Sans Pro", sans-serif;
+
+// Size and margins
+
+// Background, border color and gradients
+$v-background-color: #981aa0;
+$v-border: 2px solid rgba(#fff,0.2);
+$v-border-radius: 0;
+$v-bevel: false;
+$v-shadow: false;
+
+// Focus style
+$v-focus-style: 0 0 0 1px #aaa;
+
+@import "../valo/valo";
+
+.windows8 {
+
+  @include valo;
+  
+  .v-button {   
+      // Left to right gradient in button
+      @include linear-gradient(to right, #981aa0 0%, #a700ae 100%);
+      color: #fff;
+  }
+}
+
